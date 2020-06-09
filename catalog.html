@@ -12,7 +12,7 @@
 <div class="container">
 <header class="main-header">
     <nav class="header-navigator">
-        <img class="header-image" src="img/logo/logo.png" alt="логотип">
+        <a href=""><img class="header-image" src="img/logo/logo.png" alt="логотип"></a>
         <ul class="header-menu">
             <li class="header-menu-item"><a href="#">информация</a></li>
             <li class="header-menu-item"><a href="#">фото и видео</a></li>
@@ -23,53 +23,78 @@
 </header>
 <main class="main-catalog">
 <section class="filter">
-    <form action="" class="filter-form first">
+    <form class="catalog-form" action="">
+    <div class="filter-form first">
         <fieldset class="filter-form-border">
-            <legend class="filter-form-title">инфраструктура:</legend>
+            <label class="filter-form-title">инфраструктура:</label>
             <table class="filter-table">
                 <tr class="filter-table-row">
-                    <td class="table-row"><input id="pool" class="table-row-input" type="checkbox">
-                        <span class="table-row-span"></span></td>
-                    <td class="row-lastChild"><label for="pool">бассейн</label></td>
+                    <td class="table-row">
+                        <label class="label-pool">
+                        <input class="table-row-input" type="checkbox">
+                        <span class="table-row-span"></span>
+                    бассейн
+                        </label>
+                    </td>
                 </tr>
                 <tr class="filter-table-row">
-                    <td class="table-row"><input id="parking" class="table-row-input" type="checkbox">
-                        <span class="table-row-span"></span></td>
-                    <td class="row-lastChild"><label for="parking">парковка</label></td>
+                    <td class="table-row">
+                        <label class="label-parking">
+                            <input class="table-row-input" type="checkbox">
+                        <span class="table-row-span"></span>
+                        парковка
+                        </label>
+                    </td>
                 </tr>
                 <tr class="filter-table-row">
-                    <td class="table-row"><input id="net" class="table-row-input" type="checkbox">
-                        <span class="table-row-span"></span></td>
-                    <td class="row-lastChild"><label for="net">WI-Fi</label></td>
+                    <td class="table-row">
+                        <label class="label-net">
+                        <input id="net" class="table-row-input" type="checkbox">
+                        <span class="table-row-span"></span>
+                        WI-Fi
+                        </label>
+                    </td>
                 </tr>
             </table>
         </fieldset>
-    </form>
-    <form action="" class="filter-form second">
+    </div>
+    <div class="filter-form second">
         <fieldset class="filter-form-border">
             <legend align="left" class="filter-form-title">тип жилья:</legend>
             <table class="filter-table">
                 <tr class="filter-table-row">
-                    <td><input id="hotel" class="table-row-input" type="checkbox">
-                    <span class="table-row-span"></span></td>
-                    <td class="row-lastChild"><label for="hotel">гостиница</label></td>
+                    <td>
+                        <label class="label-hotel">
+                        <input class="table-row-input" type="checkbox">
+                    <span class="table-row-span"></span>
+                    гостиница
+                        </label>
+                    </td>
                 </tr>
                 <tr class="filter-table-row">
-                    <td><input id="motel" class="table-row-input" type="checkbox">
-                        <span class="table-row-span"></span></td>
-                    <td class="row-lastChild"><label for="motel">мотель</label></td>
+                    <td>
+                        <label class="label-motel">
+                        <input class="table-row-input" type="checkbox">
+                        <span class="table-row-span"></span>
+                        мотель
+                        </label>
+                    </td>
                 </tr>
                 <tr class="filter-table-row">
-                    <td><input  id="apartments" class="table-row-input" type="checkbox">
-                        <span class="table-row-span"></span></td>
-                    <td class="row-lastChild"><label for="apartments">апартаменты</label></td>
+                    <td>
+                        <label class="label-apartments">
+                        <input  class="table-row-input" type="checkbox">
+                        <span class="table-row-span"></span>
+                        апартаменты
+                        </label>
+                    </td>
                 </tr>
             </table>
         </fieldset>
-    </form>
-    <form action="" class="filter-form third">
+    </div>
+    <div class="filter-form third">
         <fieldset class="filter-form-border">
-            <legend align="left" class="filter-form-title">стоимость в сутки (р):</legend>
+            <label for="range" class="filter-form-title">стоимость в сутки (р):</label>
             <div class="filter-form-wrapper">
             <table class="filter-controls">
                 <tr class="filter-controls-row">
@@ -78,9 +103,10 @@
                 </tr>
             </table>
             </div>
-            <input  min="0" max="10000" class="filter-form-range" type="range"><br>
+            <input id="range" min="0" max="10000" class="filter-form-range" type="range"><br>
             <button class="filter-form-button">показать</button>
         </fieldset>
+    </div>
     </form>
 </section>
 <section class="sort">
@@ -107,6 +133,7 @@
 
         <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11"/></svg></a></li>
     </ul>
+
 </section>
 <section class="result">
     <ul class="research-list">
