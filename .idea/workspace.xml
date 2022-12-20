@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a12ed5a3-d8c5-45d9-a06e-b83aafac4907" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,8 @@
       <workItem from="1595252958633" duration="1415000" />
       <workItem from="1597509888580" duration="8000" />
       <workItem from="1600466076456" duration="137000" />
-      <workItem from="1600691120178" duration="1800000" />
+      <workItem from="1600691120178" duration="3114000" />
+      <workItem from="1603016618717" duration="644000" />
     </task>
     <servers />
   </component>
@@ -87,20 +89,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594148524044">
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1603016653697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594148524044" />
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593909751142" />
-    <state x="418" y="42" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594036499284">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="418" y="42" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594036499284" />
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1600691833785">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594148467698" />
-    <state x="1684" y="23" width="670" height="914" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1593363387632" />
-    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1600691833785" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603016653697" />
   </component>
 </project>
